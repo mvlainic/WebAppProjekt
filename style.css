@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+header {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    position: relative;
+    top: 1;
+    width: 100%;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+
+}
+
+main {
+    position: relative;
+    
+}
+
+.banner {
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+footer {
+    background-color: #333;
+    color: aliceblue;
+    text-align: left;
+    font-size: smaller;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+
+}
+
+.article {
+    /* width: 100%; */
+    height: auto;
+    border: solid;
+    border-color: white;
+    padding: 10px;
+}
+
+.article-lijevo {
+    float:left;
+    margin:10px;
+
+}
+
+.article-desno {
+    
+    margin:10px;
+
+}
+
+.datum {
+    font-style: italic;
+    font-size: smaller;
+    color: grey;
+}
+
+.procitaj_vise {
+    font-style: italic;
+    font-size: smaller;
+    color: rgba(0, 0, 255, 0.719);
+    text-decoration: none;
+}
+
+.procitaj_vise:hover {
+    color: red;
+    /* font-size: larger; */
+    text-decoration: underline;
+}
+
+.vijest-naslov {
+    font-style: bold;
+    font-size: larger;
+    color: black;
+}
+
+.vijest-naslov:hover {
+    color: red;
+
+}
+
+.vijest-slika {
+    width: 150px;
+    height: auto;
+}
+
+.vijest-slika:hover {
+    width: 155px;
+}
+
+.kontakt-forma {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: 100%;
+    height: 200px;
+    outline: dashed 1px black;
+    text-align: center;
+}
+
+
+.mala-slika {
+    width: 180px;
+    outline: dashed 1px black;
+    margin: 25px;
+
+}
+
+.mala-slika:hover {
+    border: 3px solid white;
+    width: 190px;
+}
+
+.clanak-tekst {
+    margin: 10px;
+}
+
+.slike-galerija {
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.slika {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slika:hover {
+    transform: scale(1.1);
+}
+
+p {
+    text-align: justify;
+}
+
+h1,h2,h3 {
+    margin-left: 20px; 
+}
